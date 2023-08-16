@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --color-primary: #ed4d1b;
+  --color-secondary: #ff9a3c;
+  --color-black: #000;
+  --color-white: #fff;
+}
+
+body {
+  background: linear-gradient(90deg, #ffe7d1 0%, #fff2e6 100%);
+  padding: 0 1rem;
+}
+
+body,
+html {
+  overflow-x: hidden !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-center {
+  text-align: center;
+}
+
+header,
+.hero-section,
+.courses-section,
+footer {
+  border-color: --color-black;
+  border-style: solid;
+  border-width: 0 1px;
+  padding: 20px;
+}
+
+.subscribeButton {
+  border: 2px solid #000;
+  box-shadow: 4px 4px 0 #000;
+  font-weight: 600;
+  display: block;
+  background: #e64b1a;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  padding: 0.75rem 1rem;
+  max-width: 17rem;
+  position: relative;
+  color: var(--color-black);
+  text-align: center;
+}
+
+.subscribeButton:hover {
+  border: 2px solid #e64b1a;
+  box-shadow: 4px 4px 0 ##e64b1a;
+  font-weight: 600;
+  display: block;
+  color: #e64b1a;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  padding: 0.75rem 1rem;
+  max-width: 17rem;
+  position: relative;
+  background: var(--color-black);
+  text-align: center;
+}
+
+span {
+  margin: 0;
+}
+
+

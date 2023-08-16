@@ -1,0 +1,8 @@
+header img {
+  display: block;
+  margin: 1rem auto;
+}
+
+header nav {
+  display: grid;
+}
