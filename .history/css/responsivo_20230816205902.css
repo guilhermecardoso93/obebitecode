@@ -1,0 +1,11 @@
+@media screen and (min-width: 40rem) {
+  header nav {
+    display: block;
+    text-align: center;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+  }
+}

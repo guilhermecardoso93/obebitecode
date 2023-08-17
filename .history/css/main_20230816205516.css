@@ -69,11 +69,14 @@ h2 {
   justify-content: center;
   align-items: center;
   padding: 1rem 2rem 0 1rem;
-  max-width: 16.5rem;
+  margin-bottom: 1rem;
+  max-width: 17.5rem;
   gap: 10px;
   box-shadow: 4px 4px 0 #000;
   border: 2px solid #000;
+  
 }
+
 
 .card h3 {
   font-size: 1.8rem;
@@ -95,11 +98,12 @@ h2 {
   background: #ff9a3c;
 }
 
+
+
 .rodape-article {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
   font-weight: 900;
   font-size: 2.5rem;
   margin: 2rem 0;
@@ -109,9 +113,9 @@ h2 {
   color: #e64b1a;
 }
 
-.btn-courses {
-  max-width: 13rem;
-  font-size: 1rem;
+.btn-courses{
+    max-width: 13rem;
+    font-size: 1rem;
 }
 
 .btn-courses:hover {

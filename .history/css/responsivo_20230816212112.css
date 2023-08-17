@@ -1,0 +1,67 @@
+@media screen and (min-width: 40rem) {
+  header nav {
+    display: block;
+    text-align: center;
+  }
+
+  .cards {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card:nth-child(2n) {
+    margin-top: 0.935rem;
+    margin-right: 1rem;
+  }
+
+  .card:nth-child(2n-1) {
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header img,
+  header nav,
+  haeder a {
+    margin: o;
+  }
+}
+
+@media screen and (min-width: 72rem) {
+  .container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 72rem;
+  }
+
+  .row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  footer .about {
+    flex: 2
+  }
+
+  footer .about p {
+    font-size: 1.25rem;
+    max-width: 16rem;
+  }
+
+  footer nav {
+    flex: 1
+  }
+
+  footer form {
+    flex: 3;
+  }
+}

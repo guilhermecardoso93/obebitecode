@@ -1,6 +1,6 @@
 .hero-section {
   padding-right: 0;
-  padding-bottom: 5rem;
+  padding-bottom: 16rem;
 }
 
 .hero-section img {
@@ -63,7 +63,7 @@ h2 {
   border-top: none;
 }
 
-.card {
+.cards {
   background: #f73f08;
   display: grid;
   justify-content: center;
@@ -75,46 +75,27 @@ h2 {
   border: 2px solid #000;
 }
 
-.card h3 {
+.card {
+  background: var(--color-primary);
+  border
+}
+
+.cards h3 {
   font-size: 1.8rem;
   font-weight: 600;
 }
 
-.card p {
+.cards p {
   font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: 30px;
 }
 
-.card a {
+.cards a {
   margin-left: 11rem;
 }
 
-.card:nth-child(2n) {
+.cards:nth-child(2n) {
   margin-left: 0.935rem;
   background: #ff9a3c;
-}
-
-.rodape-article {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-  font-weight: 900;
-  font-size: 2.5rem;
-  margin: 2rem 0;
-}
-
-.rodape-article span {
-  color: #e64b1a;
-}
-
-.btn-courses {
-  max-width: 13rem;
-  font-size: 1rem;
-}
-
-.btn-courses:hover {
-  max-width: 13rem;
-  font-size: 1rem;
 }

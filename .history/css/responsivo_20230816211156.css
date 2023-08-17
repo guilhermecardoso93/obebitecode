@@ -1,0 +1,40 @@
+@media screen and (min-width: 40rem) {
+  header nav {
+    display: block;
+    text-align: center;
+  }
+
+  .cards {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+
+  .card:nth-child(2n) {
+    margin-top: 0.935rem;
+    margin-right: 1rem;
+  }
+
+  .card:nth-child(2n-1) {
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header img, header nav, haeder a {
+    margin: o;
+  }
+}
+
+@media screen and (min-width: 72rem) {
+  .container {
+    display: flex;
+  }
+}
